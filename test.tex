@@ -1,0 +1,56 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[spanish]{babel}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usetikzlibrary{decorations.text}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{datatool}
+
+\geometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
+
+% Cargamos el archivo list.csv
+\DTLloaddb{lista}{list.csv}
+
+\begin{document}
+
+% Iteramos usando las minúsculas exactas del archivo list.csv
+\DTLforeach{lista}{%
+    \Materia=curso, \Profesor=docente%
+}{%
+    \begin{titlepage}
+        \centering
+        \begin{tikzpicture}[remember picture, overlay]
+            
+            % Nombre en ARCO
+            \path [decorate, decoration={text along path, 
+                text={|\Huge\bfseries|AARON ADRIANO LOYOLA LUIS},
+                text align=center}] 
+                ([xshift=-8cm, yshift=-6cm]current page.north) 
+                arc [start angle=150, end angle=30, radius=9cm];
+
+            % Grado y Sección
+            %\node[font=\huge\bfseries] at ([xshift=4.5cm, yshift=0.5cm]current page.center) {.3 A};
+
+            % Mascota
+            \node at (current page.center) {
+                \includegraphics[width=0.55\textwidth]{mascota.png}
+            };
+
+            % CURSO (Usando \Materia vinculado a 'curso')
+            \node[font=\Huge\bfseries] at ([yshift=5cm]current page.south) {\Materia};
+            
+            % DOCENTE (Usando \Profesor vinculado a 'docente')
+            \node[font=\large] at ([yshift=2.5cm]current page.south) {
+                \textbf{Docente:} \Profesor
+            };
+            
+            \node[font=\large] at ([yshift=1.5cm]current page.south) {
+                Lima, Perú | 2026
+            };
+        \end{tikzpicture}
+    \end{titlepage}
+    \newpage
+}
+
+\end{document}
