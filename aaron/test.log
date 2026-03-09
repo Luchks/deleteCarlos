@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2026.2.10)  8 MAR 2026 21:37
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2026.2.10)  8 MAR 2026 21:24
  restricted system commands enabled.
 **test.tex
 (./test.tex
@@ -816,7 +816,7 @@ e
 <mascota.png, id=4, 835.12pt x 1266.7325pt>
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
@@ -825,98 +825,98 @@ Package luatex.def Info: mascota.png  used on input line 45.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./mascota.png>]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
 [1]
 File: mascota.png Graphic file (type png)
 <use mascota.png>
-Package luatex.def Info: mascota.png  used on input line 45.
+Package luatex.def Info: mascota.png  used on input line 47.
 (luatex.def)             Requested size: 266.03474pt x 403.52646pt.
 
 
@@ -931,17 +931,17 @@ L3 programming layer <2025-01-18>
 )
 
 Here is how much of LuaTeX's memory you used:
- 24393 strings out of 475506
+ 24415 strings out of 475506
  100000,1373583 words of node,token memory allocated
  521 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 12 attribute, 51 glue_spec
 , 8 attribute_list, 2 write nodes
-   avail lists: 1:1,2:821,3:319,4:10,5:29,6:2,7:290,9:256,10:3,11:10
- 46851 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:1052,3:417,4:10,5:29,6:2,7:346,9:326,10:3,11:10
+ 46873 multiletter control sequences out of 65536+600000
  18 fonts using 1118495 bytes
- 102i,6n,101p,683b,1106s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,6n,101p,683b,1288s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on test.pdf (15 pages, 939762 bytes).
+Output written on test.pdf (15 pages, 915378 bytes).
 
 PDF statistics: 64 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
